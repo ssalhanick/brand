@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300" role="img" aria-label="Scott Salhanick avatar">
+
+  <!-- Layer order: beard first, then collar on top, then tie on top of collar -->
+
+  <!-- ── Face / beard silhouette ── -->
+  <path
+    d="
+      M 100 42
+      C 76 42, 18 57, 13 94
+      C 7  130, 10 162, 17 187
+      C 25 208, 46 220, 70 226
+      C 83 230, 92 232, 100 232
+      C 108 232, 117 230, 130 226
+      C 154 220, 175 208, 183 187
+      C 190 162, 193 130, 187 94
+      C 182 57, 124 42, 100 42
+      Z
+    "
+    fill="#383838"
+  />
+
+  <!-- Jaw wisps (drawn after beard so they extend past it) -->
+  <path d="M 17 185 Q 5  200, 12 212" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M 183 185 Q 195 200, 188 212" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- ── Lips ── -->
+  <path
+    d="M 84 164 Q 92 158, 100 161 Q 108 158, 116 164 Q 110 175, 100 177 Q 90 175, 84 164 Z"
+    fill="#2B2B2B"
+  />
+
+  <!-- ── Glasses (on top of beard overlap at top) ── -->
+  <rect x="7"   y="10" width="84" height="50" rx="9" fill="#383838"/>
+  <rect x="13"  y="16" width="72" height="38" rx="6" fill="#FFFFFF"/>
+  <rect x="109" y="10" width="84" height="50" rx="9" fill="#383838"/>
+  <rect x="115" y="16" width="72" height="38" rx="6" fill="#FFFFFF"/>
+  <rect x="91"  y="23" width="18" height="13" fill="#383838"/>
+  <rect x="0"   y="24" width="7"  height="10" rx="2" fill="#383838"/>
+  <rect x="193" y="24" width="7"  height="10" rx="2" fill="#383838"/>
+
+  <!-- ── Shirt collar (drawn AFTER beard so it shows on top) ── -->
+  <path d="M 62 218 L 100 264 L 86 244 Z" fill="#FFFFFF"/>
+  <path d="M 138 218 L 100 264 L 114 244 Z" fill="#FFFFFF"/>
+
+  <!-- ── Tie ── -->
+  <!-- Knot -->
+  <path d="M 92 228 L 88 238 L 100 250 L 112 238 L 108 228 Z" fill="#1B7EA8"/>
+  <!-- Blade -->
+  <path
+    d="
+      M 88 238
+      L 85 268
+      L 92 276
+      L 100 290
+      L 108 276
+      L 115 268
+      L 112 238
+      L 100 250
+      Z
+    "
+    fill="#1B7EA8"
+  />
+
+</svg>

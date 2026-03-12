@@ -1,0 +1,124 @@
+.hero {
+    position: relative;
+    min-height: 100svh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 80px;
+}
+
+.hero__bg {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(ellipse 80% 60% at 20% 40%, rgba(45, 66, 99, 0.35) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 40% at 80% 70%, rgba(200, 75, 49, 0.12) 0%, transparent 50%);
+    pointer-events: none;
+}
+
+.hero__inner {
+    position: relative;
+    z-index: 1;
+    padding-block: var(--space-16);
+}
+
+.hero__eyebrow {
+    font-size: var(--text-sm);
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+    margin-bottom: var(--space-4);
+}
+
+.hero__name {
+    font-size: clamp(3.5rem, 12vw, 8rem);
+    font-weight: 700;
+    line-height: 0.95;
+    letter-spacing: -0.03em;
+    color: var(--color-cream);
+    margin-bottom: var(--space-6);
+}
+
+.hero__name-accent {
+    color: var(--color-accent);
+}
+
+.hero__tagline {
+    font-size: clamp(var(--text-base), 2vw, var(--text-lg));
+    color: var(--color-muted);
+    max-width: 560px;
+    line-height: 1.7;
+    margin-bottom: var(--space-8);
+}
+
+.hero__br {
+    display: none;
+}
+
+@media (min-width: 640px) {
+    .hero__br {
+        display: block;
+    }
+}
+
+.hero__cta {
+    display: flex;
+    gap: var(--space-4);
+    flex-wrap: wrap;
+    margin-bottom: var(--space-12);
+}
+
+.hero__links {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+}
+
+.hero__social-link {
+    font-size: var(--text-sm);
+    font-weight: 500;
+    color: var(--color-muted);
+    transition: color var(--duration-fast) var(--ease);
+}
+
+.hero__social-link:hover {
+    color: var(--color-cream);
+}
+
+.hero__social-sep {
+    color: var(--color-border);
+}
+
+.hero__scroll-indicator {
+    position: absolute;
+    bottom: var(--space-8);
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero__scroll-line {
+    width: 1px;
+    height: 60px;
+    background: linear-gradient(to bottom, var(--color-accent), transparent);
+    animation: scrollPulse 2s ease-in-out infinite;
+}
+
+@keyframes scrollPulse {
+
+    0%,
+    100% {
+        opacity: 0.3;
+        transform: scaleY(0.6);
+        transform-origin: top;
+    }
+
+    50% {
+        opacity: 1;
+        transform: scaleY(1);
+        transform-origin: top;
+    }
+}
