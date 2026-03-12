@@ -40,7 +40,7 @@ export default function Hero() {
                         Email
                     </a>
                     <span className="hero__social-sep" aria-hidden="true">·</span>
-                    <a href="https://linkedin.com/in/ssalhanick" target="_blank" rel="noopener noreferrer" className="hero__social-link">
+                    <a href="https://www.linkedin.com/in/scottsalhanick/" target="_blank" rel="noopener noreferrer" className="hero__social-link">
                         LinkedIn
                     </a>
                 </div>
