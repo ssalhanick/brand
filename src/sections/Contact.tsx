@@ -44,7 +44,7 @@ export default function Contact() {
                                 aria-label="View Scott's LinkedIn profile"
                             >
                                 <span className="contact__link-icon" aria-hidden="true">in</span>
-                                linkedin.com/in/ssalhanick
+                                linkedin.com/in/scottsalhanick
                             </a>
                         </div>
                     </div>
