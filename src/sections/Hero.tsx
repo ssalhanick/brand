@@ -21,7 +21,7 @@ export default function Hero() {
                     <span className="hero__name-accent">Salhanick</span>
                 </h1>
                 <p className="hero__tagline fade-in-up fade-in-up--delay-2">
-                    Over 10 years building backend systems, APIs, and intelligent web experiences. Currently exploring the intersection of AI/ML and product engineering.
+                    Over 10 years building full stack systems, APIs, and intelligent web experiences. Currently exploring the intersection of AI/ML and product engineering. Currently pursuing an MS in Information Technology Management and MBA with a concentration in Business Analytics and Applied Machine Learning, expect to graduate in August 2026.
                 </p>
                 <div className="hero__cta fade-in-up fade-in-up--delay-3">
                     <a href="#projects" className="btn btn-primary" onClick={scrollToProjects}>
