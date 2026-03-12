@@ -37,7 +37,7 @@ export default function Contact() {
                                 github.com/ssalhanick
                             </a>
                             <a
-                                href="https://linkedin.com/in/ssalhanick"
+                                href="https://www.linkedin.com/in/scottsalhanick/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="contact__link"
