@@ -30,7 +30,7 @@ export default function About() {
 
                     </div>
 
-                    <div className="about__visual">
+                    {/* <div className="about__visual">
                         <div className="about__avatar-wrap">
                             <img
                                 src="/avatar-tie.svg"
@@ -39,7 +39,7 @@ export default function About() {
                             />
 
                         </div>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>
