@@ -18,7 +18,7 @@ export default function Hero() {
                 <p className="hero__eyebrow fade-in-up">Software Engineer • Dallas, TX</p>
                 <h1 className="hero__name fade-in-up fade-in-up--delay-1">
                     Scott<br />
-                    <span className="hero__name-accent">Salhanick <small>MS,MBA</small></span>
+                    <span className="hero__name-accent">Salhanick</span>
                 </h1>
                 <p className="hero__tagline fade-in-up fade-in-up--delay-2">
                     Over 10 years building backend systems, APIs, and intelligent web experiences. Currently exploring the intersection of AI/ML and product engineering.
