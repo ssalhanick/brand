@@ -18,8 +18,8 @@ const experiences: Experience[] = [
         type: 'Full-time',
         highlights: [
             'Designed, developed, and supported backend APIs and web applications across a 125-site WordPress environment serving 50 departments and 10,000 users daily.',
-            'Served as primary escalation point for production issues across 40+ themes, reducing mean resolution time from days to hours through systematic log analysis and API debugging.',
-            'Sole architect and implementer of CI/CD pipelines and automated Sass/JS compilation workflows, eliminating approximately 75 hours of manual cross-repo deployment work annually.',
+            'Served as primary escalation point for production issues across 40+ themes, reducing mean resolution time from days to hours through systematic log analysis, API debugging, and direct partnership with technical and non-technical stakeholders, authoring operational documentation that further enables staff to independently resolve common issues without escalation.',
+            'Sole architect and implementer of CI/CD pipelines and automated Sass/JS compilation workflows, eliminating ~75 hours of manual cross-repo deployment work annually and standardizing release processes across plugins and themes repos for 25 campus partner departments.',
         ],
     },
     {
