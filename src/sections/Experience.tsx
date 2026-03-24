@@ -18,8 +18,8 @@ const experiences: Experience[] = [
         type: 'Full-time',
         highlights: [
             'Designed, developed, and supported backend APIs and web applications across a 125-site WordPress environment serving 50 departments and 10,000 users daily.',
-            'Served as primary escalation point for production issues across 40+ themes, reducing mean resolution time from days to hours through systematic log analysis and API debugging.',
-            'Sole architect and implementer of CI/CD pipelines and automated Sass/JS compilation workflows, eliminating approximately 75 hours of manual cross-repo deployment work annually.',
+            'Served as primary escalation point for production issues across 40+ themes, reducing mean resolution time from days to hours through systematic log analysis, API debugging, and direct partnership with technical and non-technical stakeholders, authoring operational documentation that further enables staff to independently resolve common issues without escalation.',
+            'Sole architect and implementer of CI/CD pipelines and automated Sass/JS compilation workflows, eliminating ~75 hours of manual cross-repo deployment work annually and standardizing release processes across plugins and themes repos for 25 campus partner departments.',
         ],
     },
     {
@@ -52,8 +52,7 @@ const experiences: Experience[] = [
         type: 'Volunteer',
         highlights: [
             'Served as lead developer and architect for multiple production web applications supporting ticketing, scheduling, and content delivery systems.',
-            'Designed backend services and integrations linking several disparate platforms, ensuring data consistency across customer-facing and administrative systems.',
-            'Built and maintained CI/CD pipelines, source control workflows, and coding standards to support stable releases and collaborative development.',
+            'Designed and maintained ETL-style integrations connecting 2 external platforms and an internal ticketing system, standardizing data models across customer-facing and operational systems, replacing manual data entry and saving ~180 hours of reconciliation work annually across ~30 monthly events, with full architecture documentation for long-term maintainability.',
         ],
     },
     {
