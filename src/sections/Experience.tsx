@@ -52,8 +52,7 @@ const experiences: Experience[] = [
         type: 'Volunteer',
         highlights: [
             'Served as lead developer and architect for multiple production web applications supporting ticketing, scheduling, and content delivery systems.',
-            'Designed backend services and integrations linking several disparate platforms, ensuring data consistency across customer-facing and administrative systems.',
-            'Built and maintained CI/CD pipelines, source control workflows, and coding standards to support stable releases and collaborative development.',
+            'Designed and maintained ETL-style integrations connecting 2 external platforms and an internal ticketing system, standardizing data models across customer-facing and operational systems, replacing manual data entry and saving ~180 hours of reconciliation work annually across ~30 monthly events, with full architecture documentation for long-term maintainability.',
         ],
     },
     {
